@@ -152,7 +152,7 @@ export const methodology = {
     },
     {
       title: '2. Smart Ambulance Dispatch',
-      text: 'Triggered by a critical alert from Component 1. A Haversine great-circle distance computation is embedded in a TensorFlow graph and tf.math.top_k selects the k = 3 nearest hospitals (Earth radius 6,371 km). Hospital registry from the Ministry of Health public directory; synthetic GPS traces from Colombo, Gampaha and Kandy for simulation.',
+      text: 'Triggered by a critical alert from Component 1. A Haversine great-circle distance computation is embedded in a TensorFlow graph and tf.math.top_k selects the k = 3 nearest hospitals (Earth radius 6,371 km). Hospital registry from the Ministry of Health public directory; synthetic GPS traces from Colombo, Gampaha and Kalutara for simulation.',
       steps: [
         'Emergency alert received from Firebase',
         'Hospital Proximity Engine (KNN + Haversine)',
@@ -326,7 +326,7 @@ export const documents = [
         name: 'Project Proposal Document : IT22101792 | DIMASHA S.S.D.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/IT22101792.pdf', // ← ඔබේ file නම මෙතන
+        url: '/docs/Dimasha.pdf', // ← ඔබේ file නම මෙතන
       },
 
       {
@@ -340,15 +340,15 @@ export const documents = [
         name: 'Project Proposal Document : IT22190352  | GAMAGE S.Y.S.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/Gamage.pdf',  
+        url: 'docs/IT22190352_S.pdf',  
       },
 
             {
         name: 'Project Proposal Document : IT22641038 | Gunawardana G.H.N.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/Nimsara.pdf',  
-      },
+        url: 'docs/IT22641038_H.pdf',  
+      }
 
 
 
@@ -391,9 +391,9 @@ export const slides = [
 // photo: 'images/නම.jpg' (public/images ඇතුලට දාන්න). නැත්නම් initials පෙන්වයි
 export const members = [
   { name: 'Sandaru Samintha', id: 'IT22180070', component: 'Component: ML-Driven Emergency Detection', email: 'sandaru.samintha1234@gmail.com', photo: 'images/Samintha.jpeg' },
-  { name: 'Hasitha Gunawardana', id: 'IT22180071', component: 'Component: ML-Driven Health Deterioration Prediction', email: 'hasitha.gunawardana94@gmail.com', photo: 'images/Hasitha.jpeg' },
+  { name: 'Hasitha Gunawardana', id: ' IT22641038 ', component: 'Component: ML-Driven Health Deterioration Prediction', email: 'hasitha.gunawardana94@gmail.com', photo: 'images/Hasitha.jpeg' },
   { name: 'Dinethi Dimasha', id: 'IT22101792', component: 'Component: ML-Based Smart Ambulance Dispatch', email: 'dinethisenarath@gmail.com',photo: 'images/Dinethi.png' },
-  { name: 'Sasindu Yomal', id: 'IT22180073', component: 'Component: AI-Based Hospital Ward Monitoring', email: 'sasinduyomal2002@gmail.com', photo: 'images/sasindu.jpeg' },
+  { name: 'Sasindu Yomal', id: 'IT22190352 ', component: 'Component: AI-Based Hospital Ward Monitoring', email: 'sasinduyomal2002@gmail.com', photo: 'images/sasindu.jpeg' },
 ]
 
 export const supervisors = [
