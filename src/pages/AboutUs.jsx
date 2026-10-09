@@ -2,11 +2,28 @@ import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
 import { members, supervisors } from '../data/projectData'
 
+// 'images/x.png' => හරියටම public folder එකේ file එකට යන path එකක් හදනවා
+function resolvePhoto(photo) {
+  if (!photo) return ''
+  if (photo.startsWith('http')) return photo
+  return import.meta.env.BASE_URL + photo.replace(/^\/+/, '')
+}
+
 function Avatar({ name, photo }) {
   const [failed, setFailed] = useState(false)
   const initials = name.split(' ').map((n) => n[0]).slice(0, 2).join('')
-  if (!photo || failed) return <div className="avatar">{initials}</div>
-  return <img className="avatar" src={photo} alt={name} onError={() => setFailed(true)} />
+  const src = resolvePhoto(photo)
+
+  if (!src || failed) return <div className="avatar">{initials}</div>
+
+  return (
+    <img
+      className="avatar"
+      src={src}
+      alt={name}
+      onError={() => setFailed(true)}
+    />
+  )
 }
 
 export default function AboutUs() {
@@ -23,7 +40,7 @@ export default function AboutUs() {
               <p className="muted">{m.id}</p>
               <p>{m.component}</p>
               <p><a href={`mailto:${m.email}`}>{m.email}</a></p>
-              <p className="muted">{m.info}</p>
+              {m.info && <p className="muted">{m.info}</p>}
             </div>
           ))}
         </div>

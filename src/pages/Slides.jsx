@@ -10,6 +10,8 @@ export default function Slides() {
           {slides.map((s) => (
             <div className="card" key={s.name}>
               <h3>🎞️ {s.name}</h3>
+              <p><strong>Type:</strong> {s.type}</p>
+              <p>{s.desc}</p>
               {s.url ? (
                 <a className="btn btn-primary" href={s.url} target="_blank" rel="noreferrer">Open Slides</a>
               ) : (
