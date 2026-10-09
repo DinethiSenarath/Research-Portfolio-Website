@@ -11,6 +11,22 @@ export const project = {
     'Emergency medical conditions such as cardiac arrest, stroke and acute respiratory failure remain a leading cause of preventable death in Sri Lanka, where ambulance response times in Colombo exceed 18 minutes against the WHO benchmark of 8 minutes. Existing wearables and hospital monitoring platforms are reactive, rely on single parameters and depend on infrastructure that is largely unavailable locally. This research presents Safe Band, an integrated IoT and machine-learning ecosystem built around a shared Android smartwatch and Firebase Realtime Database backbone, made up of four independently evaluated components: Emergency Detection, Smart Ambulance Dispatch, Ward Monitoring and Health Deterioration Prediction.',
 }
 
+/* ===================== INTRODUCTION ===================== */
+export const intro = {
+  heading: 'What is Safe Band?',
+  paragraphs: [
+    'Safe Band is a research initiative focused on designing and developing an integrated IoT and machine-learning wearable ecosystem for emergency health monitoring and response in Sri Lanka, supporting UN Sustainable Development Goal 3 (Good Health and Well-being).',
+    'The system combines four interconnected components: ML-Driven Emergency Detection, Smart Ambulance Dispatch with Nearest Hospital Identification, AI-Based Hospital Ward Monitoring, and ML-Driven Health Deterioration Prediction. All of them are built around a shared Android smartwatch and Firebase Realtime Database backbone.',
+    'Our research aims to bridge the gap between global wearable and dispatch technologies and the infrastructure realities of Sri Lanka, by providing infrastructure-light, on-device machine learning that works without live traffic APIs or real-time bed-occupancy data.',
+  ],
+  vision:
+    'To create a Sri Lanka where no life is lost to a delayed emergency response, through accessible, intelligent and infrastructure-light health monitoring technology.',
+  mission:
+    'To detect medical emergencies early, guide ambulances to the nearest suitable hospital, and give clinical staff trend-based early warnings, using on-device machine learning designed for Sri Lanka\'s healthcare constraints.',
+}
+
+
+
 export const stats = [
   { value: '≈75%', label: 'of deaths in Sri Lanka are caused by non-communicable diseases' },
   { value: '18+ min', label: 'Colombo ambulance response time vs the WHO 8-minute benchmark' },
@@ -302,17 +318,7 @@ export const milestones = [
 // url: '' => "Pending" ලෙස පෙන්වයි
 // PDF එක public/docs/ ට දාලා url: 'docs/නම.pdf' ලෙස දෙන්න ('public/' කියලා ලියන්න එපා)
 export const documents = [
-  {
-    group: 'Project Charter',
-    items: [
-      {
-        name: 'Project Charter',
-        type: 'Charter',
-        desc: 'Project charter with the planned scope, team responsibilities, objectives and deliverables.',
-        url: '',
-      },
-    ],
-  },
+  
   {
     group: 'Project Proposal',
     items: [
@@ -338,10 +344,10 @@ export const documents = [
       },
 
             {
-        name: 'Project Proposal Document : IT...... | ........',
+        name: 'Project Proposal Document : IT22641038 | Gunawardana G.H.N.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/DEWPARIYA.pdf',  
+        url: 'docs/Nimsara.pdf',  
       },
 
 
@@ -349,14 +355,7 @@ export const documents = [
 
     ],
   },
-  {
-    group: 'Checklist Documents',
-    items: [
-      { name: 'Proposal Checklist', type: 'Checklist', desc: 'Checklist submitted with the project proposal.', url: '' },
-      { name: 'Progress Presentation Checklist', type: 'Checklist', desc: 'Checklist submitted at the progress presentation stage.', url: '' },
-      { name: 'Final Checklist', type: 'Checklist', desc: 'Final checklist confirming all project deliverables are complete.', url: '' },
-    ],
-  },
+  
   {
     group: 'Final Documents',
     items: [
@@ -374,7 +373,7 @@ export const documents = [
         name: 'Research Paper (IEEE Format)',
         type: 'Research Paper',
         desc: 'Safe Band: Smart Wearable for Emergency Health Alerts and Monitoring in Sri Lanka.',
-        url: '',
+        url: 'docs/ResearcPaper.pdf',
       },
     ],
   },
@@ -382,29 +381,29 @@ export const documents = [
 
 /* ===================== SLIDES ===================== */
 export const slides = [
-  { name: 'Proposal Presentation', url: '' },
-  { name: 'Progress Presentation 1', url: '' },
-  { name: 'Progress Presentation 2', url: '' },
-  { name: 'Final Presentation', url: '' },
+  
+  { name: 'Progress Presentation 1',type: 'Presentation' ,desc: 'Presentation of the project progress at the first milestone.', url: 'slides/PP1.pdf' },
+  { name: 'Progress Presentation 2', type: 'Presentation', desc: 'Presentation of the project progress at the second milestone.', url: 'slides/PP2.pptx' },
+  { name: 'Final Presentation', type: 'Presentation', desc: 'Final presentation of the completed project.', url: '' },
 ]
 
 /* ===================== ABOUT US ===================== */
 // photo: 'images/නම.jpg' (public/images ඇතුලට දාන්න). නැත්නම් initials පෙන්වයි
 export const members = [
-  { name: 'Sandaru Samintha', id: 'ITXXXXXXXX', component: 'Component: TBD', email: 'sandaru.samintha1234@gmail.com', photo: '', info: 'Add achievements here.' },
-  { name: 'Hasitha Gunawardana', id: 'ITXXXXXXXX', component: 'Component: TBD', email: 'hasitha.gunawardana94@gmail.com', photo: '', info: 'Add achievements here.' },
-  { name: 'Dinethi Dimasha', id: 'ITXXXXXXXX', component: 'Component: TBD', email: 'dinethisenarath@gmail.com', photo: '', info: 'Add achievements here.' },
-  { name: 'Sasindu Yomal', id: 'ITXXXXXXXX', component: 'Component: TBD', email: 'sasinduyomal2002@gmail.com', photo: '', info: 'Add achievements here.' },
+  { name: 'Sandaru Samintha', id: 'IT22180070', component: 'Component: ML-Driven Emergency Detection', email: 'sandaru.samintha1234@gmail.com', photo: 'images/Samintha.jpeg' },
+  { name: 'Hasitha Gunawardana', id: 'IT22180071', component: 'Component: ML-Driven Health Deterioration Prediction', email: 'hasitha.gunawardana94@gmail.com', photo: 'images/Hasitha.jpeg' },
+  { name: 'Dinethi Dimasha', id: 'IT22101792', component: 'Component: ML-Based Smart Ambulance Dispatch', email: 'dinethisenarath@gmail.com',photo: 'images/Dinethi.png' },
+  { name: 'Sasindu Yomal', id: 'IT22180073', component: 'Component: AI-Based Hospital Ward Monitoring', email: 'sasinduyomal2002@gmail.com', photo: 'images/sasindu.jpeg' },
 ]
 
 export const supervisors = [
-  { name: 'Chathurangika Kahadawaarachchi', role: 'Supervisor, Department of Computer Systems Engineering, SLIIT', email: 'chathurangika.k@sliit.lk', photo: '' },
-  { name: 'Buddhima Attanayaka', role: 'Co-Supervisor, Department of Computer Systems Engineering, SLIIT', email: 'buddhima.a@sliit.lk', photo: '' },
+  { name: 'Chathurangika Kahadawaarachchi', role: 'Supervisor, Department of Computer Systems Engineering, SLIIT', email: 'chathurangika.k@sliit.lk', photo: 'images/Ch.jpg' },
+  { name: 'Buddhima Attanayaka', role: 'Co-Supervisor, Department of Computer Systems Engineering, SLIIT', email: 'buddhima.a@sliit.lk', photo: 'images/budd.webp' },
 ]
 
 /* ===================== CONTACT ===================== */
 export const contact = {
-  email: 'sandaru.samintha1234@gmail.com', // TODO: group general email
-  phone: '+94 7X XXX XXXX', // TODO
+  email: 'safebandsrilanka@gmail.com', 
+  phone: '+94 11 234 5678', 
   address: 'Faculty of Computing, Sri Lanka Institute of Information Technology, Malabe, Sri Lanka',
 }

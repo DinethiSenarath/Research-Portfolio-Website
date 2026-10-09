@@ -33,7 +33,7 @@ Kind regards,
 
   return (
     <>
-      <PageHeader title="Contact Us" subtitle={`Get in touch with the ${project.short} research team`} />
+      <PageHeader title="Get In Touch" subtitle={`Get in touch with the ${project.short} research team`} />
       <div className="container block two-col">
         <div className="panel">
           <h3>General Contacts</h3>
