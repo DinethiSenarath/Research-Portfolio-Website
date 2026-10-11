@@ -215,7 +215,6 @@ export const results = {
 }
 
 /* ===================== MILESTONES ===================== */
-/* ===================== MILESTONES ===================== */
 // end = අවසාන දිනය (YYYY-MM-DD). ඒකෙන් Completed / Upcoming automatic තීරණය වෙනවා
 export const milestones = [
   {
@@ -312,13 +311,10 @@ export const milestones = [
 ]
 
 /* ===================== DOCUMENTS ===================== */
-// url: '' => "Pending" ලෙස පෙන්වයි. PDF එක public/docs/ ට දාලා url: 'docs/නම.pdf' ලෙස දෙන්න
-/* ===================== DOCUMENTS ===================== */
 // type: filter drop-down එකට
 // url: '' => "Pending" ලෙස පෙන්වයි
-// PDF එක public/docs/ ට දාලා url: 'docs/නම.pdf' ලෙස දෙන්න ('public/' කියලා ලියන්න එපා)
+// Google Drive direct-download links: https://drive.google.com/uc?export=download&id=FILE_ID
 export const documents = [
-  
   {
     group: 'Project Proposal',
     items: [
@@ -326,46 +322,65 @@ export const documents = [
         name: 'Project Proposal Document : IT22101792 | DIMASHA S.S.D.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: '/docs/Dimasha.pdf', // ← ඔබේ file නම මෙතන
+        url: 'https://drive.google.com/uc?export=download&id=1iefYoAT8BYBeU_gZyc5W4WV1LZiUSYu-',
       },
-
       {
         name: 'Project Proposal Document : IT22180070 | DEWAPRIYA K.M.S.S.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/DEWPARIYA.pdf',  
+        url: 'https://drive.google.com/uc?export=download&id=1rD7bgazQQfmXkJuERzVJJUljsBCkSLHE',
       },
-
       {
         name: 'Project Proposal Document : IT22190352  | GAMAGE S.Y.S.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/IT22190352_S.pdf',  
+        url: 'https://drive.google.com/uc?export=download&id=153RUwmyu5aoYaSDnsf6o9FjT4viYC-r5',
       },
-
-            {
+      {
         name: 'Project Proposal Document : IT22641038 | Gunawardana G.H.N.',
         type: 'Proposal',
         desc: 'Research problem, objectives, literature survey and proposed methodology of the Safe Band project.',
-        url: 'docs/IT22641038_H.pdf',  
-      }
-
-
-
-
+        url: 'https://drive.google.com/uc?export=download&id=1bCE6AdOfRuSenjdl586eV33YnLGgQgtD',
+      },
     ],
   },
-  
+
   {
     group: 'Final Documents',
     items: [
-      { name: 'Final Report (Main)', type: 'Final Report', desc: 'Main final thesis of the Safe Band research project.', url: '' },
-      { name: 'Individual Report 1', type: 'Final Report', desc: 'Individual final report of group member 1.', url: '' },
-      { name: 'Individual Report 2', type: 'Final Report', desc: 'Individual final report of group member 2.', url: '' },
-      { name: 'Individual Report 3', type: 'Final Report', desc: 'Individual final report of group member 3.', url: '' },
-      { name: 'Individual Report 4', type: 'Final Report', desc: 'Individual final report of group member 4.', url: '' },
+      {
+        name: 'Common Draft Thesis Report',
+        type: 'Draft Thesis Report',
+        desc: 'The main draft thesis report presenting the Safe Band research project, including the research background, objectives, methodology, system design, implementation, results, and conclusions.',
+        url: 'https://drive.google.com/uc?export=download&id=1eNRNfhPzDBrNiNOR-Ri8bkmTrax6-9FH',
+      },
+      {
+        name: 'Draft Thesis Report: IT22101792 | DIMASHA S.S.D.',
+        type: 'Draft Thesis Report',
+        desc: 'Individual Draft Thesis report for ML-Assisted Ambulance Dispatch and Nearest-Hospital Identification.',
+        url: 'https://drive.google.com/uc?export=download&id=1pCMmczg_NdrJwkOoa_NsxNv3UcZeHF2n',
+      },
+      {
+        name: 'Draft Thesis Report: IT22180070 | DEWAPRIYA K.M.S.S.',
+        type: 'Draft Thesis Report',
+        desc: 'Individual Draft Thesis report for ML-Based Emergency Detection System ',
+        url: 'https://drive.google.com/uc?export=download&id=1DsEGSiILPWERNQ1FWScfrTZOJ5knP_Vf',
+      },
+      {
+        name: 'Draft Thesis Report: IT22190352 | GAMAGE S.Y.S.',
+        type: 'Draft Thesis Report',
+        desc: 'Individual Draft Thesis report for Predictive Ward Monitoring and Early Warning Systems .',
+        url: ''
+      },
+      {
+        name: 'Draft Thesis Report: IT22641038 | Gunawardana G.H.N.',
+        type: 'Draft Thesis Report',
+        desc: 'Individual Draft Thesis report for Predictive Modelling of Health Deterioration from Physiological Trends ',
+        url: ''
+      },
     ],
   },
+
   {
     group: 'Research Paper',
     items: [
@@ -373,7 +388,7 @@ export const documents = [
         name: 'Research Paper (IEEE Format)',
         type: 'Research Paper',
         desc: 'Safe Band: Smart Wearable for Emergency Health Alerts and Monitoring in Sri Lanka.',
-        url: 'docs/ResearcPaper.pdf',
+        url: 'https://drive.google.com/uc?export=download&id=1xjvfZrjjkQsmrFG2epNxfziIP9lyPkTy',
       },
     ],
   },
@@ -381,8 +396,8 @@ export const documents = [
 
 /* ===================== SLIDES ===================== */
 export const slides = [
-  
-  { name: 'Progress Presentation 1',type: 'Presentation' ,desc: 'Presentation of the project progress at the first milestone.', url: 'slides/PP1.pdf' },
+
+  { name: 'Progress Presentation 1', type: 'Presentation', desc: 'Presentation of the project progress at the first milestone.', url: 'slides/PP1.pdf' },
   { name: 'Progress Presentation 2', type: 'Presentation', desc: 'Presentation of the project progress at the second milestone.', url: 'slides/PP2.pptx' },
   { name: 'Final Presentation', type: 'Presentation', desc: 'Final presentation of the completed project.', url: '' },
 ]
@@ -392,7 +407,7 @@ export const slides = [
 export const members = [
   { name: 'Sandaru Samintha', id: 'IT22180070', component: 'Component: ML-Driven Emergency Detection', email: 'sandaru.samintha1234@gmail.com', photo: 'images/Samintha.jpeg' },
   { name: 'Hasitha Gunawardana', id: ' IT22641038 ', component: 'Component: ML-Driven Health Deterioration Prediction', email: 'hasitha.gunawardana94@gmail.com', photo: 'images/Hasitha.jpeg' },
-  { name: 'Dinethi Dimasha', id: 'IT22101792', component: 'Component: ML-Based Smart Ambulance Dispatch', email: 'dinethisenarath@gmail.com',photo: 'images/Dinethi.png' },
+  { name: 'Dinethi Dimasha', id: 'IT22101792', component: 'Component: ML-Based Smart Ambulance Dispatch', email: 'dinethisenarath@gmail.com', photo: 'images/Dinethi.png' },
   { name: 'Sasindu Yomal', id: 'IT22190352 ', component: 'Component: AI-Based Hospital Ward Monitoring', email: 'sasinduyomal2002@gmail.com', photo: 'images/sasindu.jpeg' },
 ]
 
@@ -403,7 +418,7 @@ export const supervisors = [
 
 /* ===================== CONTACT ===================== */
 export const contact = {
-  email: 'safebandsrilanka@gmail.com', 
-  phone: '+94 11 234 5678', 
+  email: 'safebandsrilanka@gmail.com',
+  phone: '+94 11 234 5678',
   address: 'Faculty of Computing, Sri Lanka Institute of Information Technology, Malabe, Sri Lanka',
 }
