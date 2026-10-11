@@ -349,35 +349,25 @@ export const documents = [
     group: 'Final Documents',
     items: [
       {
-        name: 'Common Draft Thesis Report',
-        type: 'Draft Thesis Report',
-        desc: 'The main draft thesis report presenting the Safe Band research project, including the research background, objectives, methodology, system design, implementation, results, and conclusions.',
+        name: 'Final Report (Main)',
+        type: 'Final Report',
+        desc: 'Main final thesis of the Safe Band research project.',
         url: 'https://drive.google.com/uc?export=download&id=1eNRNfhPzDBrNiNOR-Ri8bkmTrax6-9FH',
       },
       {
-        name: 'Draft Thesis Report: IT22101792 | DIMASHA S.S.D.',
-        type: 'Draft Thesis Report',
-        desc: 'Individual Draft Thesis report for ML-Assisted Ambulance Dispatch and Nearest-Hospital Identification.',
+        name: 'Individual Report 1',
+        type: 'Final Report',
+        desc: 'Individual final report of group member 1.',
         url: 'https://drive.google.com/uc?export=download&id=1pCMmczg_NdrJwkOoa_NsxNv3UcZeHF2n',
       },
       {
-        name: 'Draft Thesis Report: IT22180070 | DEWAPRIYA K.M.S.S.',
-        type: 'Draft Thesis Report',
-        desc: 'Individual Draft Thesis report for ML-Based Emergency Detection System ',
+        name: 'Individual Report 2',
+        type: 'Final Report',
+        desc: 'Individual final report of group member 2.',
         url: 'https://drive.google.com/uc?export=download&id=1DsEGSiILPWERNQ1FWScfrTZOJ5knP_Vf',
       },
-      {
-        name: 'Draft Thesis Report: IT22190352 | GAMAGE S.Y.S.',
-        type: 'Draft Thesis Report',
-        desc: 'Individual Draft Thesis report for Predictive Ward Monitoring and Early Warning Systems .',
-        url: ''
-      },
-      {
-        name: 'Draft Thesis Report: IT22641038 | Gunawardana G.H.N.',
-        type: 'Draft Thesis Report',
-        desc: 'Individual Draft Thesis report for Predictive Modelling of Health Deterioration from Physiological Trends ',
-        url: ''
-      },
+      { name: 'Individual Report 3', type: 'Final Report', desc: 'Individual final report of group member 3.', url: '' },
+      { name: 'Individual Report 4', type: 'Final Report', desc: 'Individual final report of group member 4.', url: '' },
     ],
   },
 
@@ -397,8 +387,8 @@ export const documents = [
 /* ===================== SLIDES ===================== */
 export const slides = [
 
-  { name: 'Progress Presentation 1', type: 'Presentation', desc: 'Presentation of the project progress at the first milestone.', url: 'slides/PP1.pdf' },
-  { name: 'Progress Presentation 2', type: 'Presentation', desc: 'Presentation of the project progress at the second milestone.', url: 'slides/PP2.pptx' },
+  { name: 'Progress Presentation 1', type: 'Presentation', desc: 'Presentation of the project progress at the first milestone.', url: 'https://drive.google.com/file/d/1ZH--YR9VSr_XjEK7KBLk4U_v2yaufSSd/view?usp=drive_link' },
+  { name: 'Progress Presentation 2', type: 'Presentation', desc: 'Presentation of the project progress at the second milestone.', url: 'https://docs.google.com/presentation/d/1ubg015WTEH4lSr5E_Kt8tDXH2jvBIP0l/edit?usp=drive_link&rtpof=true&sd=true' },
   { name: 'Final Presentation', type: 'Presentation', desc: 'Final presentation of the completed project.', url: '' },
 ]
 
