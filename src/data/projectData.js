@@ -349,26 +349,36 @@ export const documents = [
     group: 'Final Documents',
     items: [
       {
-        name: 'Final Report (Main)',
-        type: 'Final Report',
-        desc: 'Main final thesis of the Safe Band research project.',
+        name: 'Common Thesis Report',
+        type: 'Common Thesis Report',
+        desc: 'The complete research thesis report covering the overall project, including the research background, problem statement, objectives, methodology, system design, implementation, testing, and overall findings.',
         url: 'https://drive.google.com/uc?export=download&id=1eNRNfhPzDBrNiNOR-Ri8bkmTrax6-9FH',
       },
       {
-        name: 'Individual Report 1',
-        type: 'Final Report',
-        desc: 'Individual final report of group member 1.',
+        name: 'Thesis Report : IT22101792 | DIMASHA S.S.D.',
+        type: 'Individual Thesis Report',
+        desc: 'Individual thesis report on ML-Assisted Ambulance Dispatch and Nearest-Hospital Identification, focusing on machine learning approaches for identifying suitable nearby hospitals.',
         url: 'https://drive.google.com/uc?export=download&id=1pCMmczg_NdrJwkOoa_NsxNv3UcZeHF2n',
       },
       {
-        name: 'Individual Report 2',
-        type: 'Final Report',
-        desc: 'Individual final report of group member 2.',
+        name: 'Thesis Report : IT22180070 | DEWAPRIYA K.M.S.S.',
+        type: 'Individual Thesis Report',
+        desc: 'Individual thesis report on the ML-Driven Emergency Detection System, focusing on ECG-based emergency detection using an LSTM model, TensorFlow Lite, and Firebase for real-time health alerts.',
         url: 'https://drive.google.com/uc?export=download&id=1DsEGSiILPWERNQ1FWScfrTZOJ5knP_Vf',
       },
-      { name: 'Individual Report 3', type: 'Final Report', desc: 'Individual final report of group member 3.', url: '' },
-      { name: 'Individual Report 4', type: 'Final Report', desc: 'Individual final report of group member 4.', url: '' },
-    ],
+      {
+        name: 'Thesis Report : IT22190352 | Gamage S.Y.S.',
+        type: 'Individual Thesis Report',
+        desc: 'Individual thesis report documenting the assigned research component, including its research objectives, methodology, implementation, and evaluation.',
+        url: '',
+      },
+      {
+        name: 'Thesis Report : IT22641038 | Gunawardana G.H.N',
+        type: 'Individual Thesis Report',
+        desc: 'Individual thesis report documenting the assigned research component, including its research objectives, methodology, implementation, and evaluation.',
+        url: '',
+      },
+    ]
   },
 
   {
