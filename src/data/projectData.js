@@ -399,7 +399,7 @@ export const slides = [
 
   { name: 'Progress Presentation 1', type: 'Presentation', desc: 'Presentation of the project progress at the first milestone.', url: 'https://drive.google.com/file/d/1ZH--YR9VSr_XjEK7KBLk4U_v2yaufSSd/view?usp=drive_link' },
   { name: 'Progress Presentation 2', type: 'Presentation', desc: 'Presentation of the project progress at the second milestone.', url: 'https://docs.google.com/presentation/d/1ubg015WTEH4lSr5E_Kt8tDXH2jvBIP0l/edit?usp=drive_link&rtpof=true&sd=true' },
-  { name: 'Final Presentation', type: 'Presentation', desc: 'Final presentation of the completed project.', url: '' },
+  { name: 'Final Presentation', type: 'Presentation', desc: 'Final presentation of the completed project.', url: 'https://docs.google.com/presentation/d/1XiGdEWf2B2q3qW2-D_AoJf_Gip8TSqnw/edit?usp=sharing&ouid=102375072072410433562&rtpof=true&sd=true' },
 ]
 
 /* ===================== ABOUT US ===================== */
