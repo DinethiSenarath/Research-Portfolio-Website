@@ -370,13 +370,13 @@ export const documents = [
         name: 'Thesis Report : IT22190352 | Gamage S.Y.S.',
         type: 'Individual Thesis Report',
         desc: 'Individual thesis report documenting the assigned research component, including its research objectives, methodology, implementation, and evaluation.',
-        url: '',
+        url: 'https://drive.google.com/file/d/1WudQTVjZW_xdnFbmYaj1iE351B94Veve/view?usp=sharing',
       },
       {
         name: 'Thesis Report : IT22641038 | Gunawardana G.H.N',
         type: 'Individual Thesis Report',
         desc: 'Individual thesis report documenting the assigned research component, including its research objectives, methodology, implementation, and evaluation.',
-        url: '',
+        url: 'https://drive.google.com/file/d/1QxrskPMbBUKdaR1AipEfzYkPFpIcyP9c/view?usp=sharing',
       },
     ]
   },
